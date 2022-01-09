@@ -1,7 +1,11 @@
+import Presentation_Container from "./presentation-container/example-01";
+
+//app we can say presentation & container component
 function App() {
+  
   return (
     <div className="App">
-      <code>Hello World :)</code>
+        <Presentation_Container/>
     </div>
   );
 }
